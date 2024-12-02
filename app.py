@@ -4,6 +4,10 @@ from surprise import SVD, Dataset, Reader
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+import numpy as np
+np._import_array()
+
+
 # Load the dataset
 # df_songsDB = pd.read_csv('C://Users//Asus//OneDrive//Desktop//Grishma_AI//Applied_AI//Assessment_1//API//song_dataset.csv')
 df_songsDB = pd.read_csv('/Users/Matka/Desktop/uni assignments/sem 1 - II/Applied AI/asmnt 1/song_dataset.csv')
