@@ -151,7 +151,7 @@ propcache==0.2.0
 proto-plus==1.25.0
 protobuf==5.28.3
 psutil==6.0.0
-psycopg2==2.9.10
+psycopg2-binary==2.9.10
 pure_eval==0.2.3
 py-cpuinfo==9.0.0
 pyarrow==17.0.0
@@ -174,8 +174,6 @@ python-calamine==0.2.3
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 pytz==2024.2
-pywin32==306
-pywinpty==2.0.13
 pyxlsb==1.0.10
 PyYAML==6.0.2
 pyzmq==26.2.0
