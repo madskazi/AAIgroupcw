@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from surprise import SVD, Dataset, Reader
+#from surprise import SVD, Dataset, Reader
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
